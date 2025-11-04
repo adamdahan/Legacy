@@ -15,7 +15,6 @@
 		503F3C07112DE8288A230A56 /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE183DBF22DD6C5F8ED612D /* Pods_iosApp.framework */; };
 		6ADC6350B6383FEBE28332F8 /* UserListViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA497C326AF49D8D2F20E0C5 /* UserListViewControllerWrapper.swift */; };
 		6DA92A57CA9C002F567ECAFE /* LegacyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D706DE161F1042C35731E252 /* LegacyViewController.h */; };
-		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 		BB38683C52FCD8DB30851ED2 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F91C29BA898CBCC4395F23B /* UserListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		4FDB4A05D7AD974FA7F27287 /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.debug.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5F91C29BA898CBCC4395F23B /* UserListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		7555FF7B242A565900829871 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88D8C037FB5E22BEAFAE8A44 /* LegacyViewControllerBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LegacyViewControllerBridge.swift; sourceTree = "<group>"; };
 		935D5C7E22EB8B15C1D42497 /* LegacyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LegacyViewController.m; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
-				7555FF82242A565900829871 /* ContentView.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
 				058557D7273AAEEB004C7B11 /* Preview Content */,
@@ -220,7 +217,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
-				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				BB38683C52FCD8DB30851ED2 /* UserListView.swift in Sources */,
 				01853B1724D8855BC4C2D4AD /* LegacyViewControllerBridge.swift in Sources */,
 				4D2056DB703252FCC45DBC0E /* LegacyViewController.m in Sources */,
