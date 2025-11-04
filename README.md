@@ -265,6 +265,6 @@ This project shows a **production-ready** pattern for:
 
 ---
 
-**Created by**: KMP Integration Demo  
+**Created by**: Adam Dahan  
 **Purpose**: Demonstrate legacy app modernization with Kotlin Multiplatform  
 **License**: MIT
