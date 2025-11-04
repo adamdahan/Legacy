@@ -21,6 +21,8 @@ UIHostingController
     Mock Data
 ```
 
+![iOS KMP Architecture](kmp_objc.png)
+
 ### Android Architecture
 ```
 XML Layout Activity
@@ -35,6 +37,8 @@ Jetpack Compose UI
         ↓
     Mock Data
 ```
+
+![Android KMP Architecture](kmp_xml.png)
 
 ## ✅ What Works
 
@@ -214,6 +218,16 @@ This project shows a **production-ready** pattern for:
 - ✅ **Production Ready**: Builds successfully on both platforms
 
 ## 📚 Documentation
+
+### 📊 Sequence Diagrams
+- **[SEQUENCE_DIAGRAMS.md](SEQUENCE_DIAGRAMS.md)** - Detailed Mermaid diagrams showing:
+  - iOS data flow (Objective-C → SwiftUI → KMP)
+  - Android data flow (XML → Jetpack Compose → KMP)
+  - Component interactions and architecture comparisons
+  - Step-by-step execution flow for both platforms
+
+### 🔍 Platform Comparison
+- **[PLATFORM_COMPARISON.md](PLATFORM_COMPARISON.md)** - Side-by-side comparison of iOS vs Android integration
 
 ### iOS-Specific
 - Objective-C interop with Swift generics
